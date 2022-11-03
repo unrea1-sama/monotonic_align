@@ -9,7 +9,7 @@ LICENSE          = "MIT"
 KEYWORDS         = "None"
 URL              = "https://github.com/mushanshanshan"
 README           = ".github/README.md"
-VERSION          = "0.0.1"
+VERSION          = "0.0.2"
 CLASSIFIERS      = [
   "Environment :: Console",
   "License :: OSI Approved :: MIT License",
