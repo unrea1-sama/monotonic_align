@@ -1,15 +1,15 @@
 from setuptools import setup, find_packages
 from Cython.Build import cythonize
 
-NAME             = "monotonic_align"
+NAME             = "vits_monotonic_align"
 AUTHOR           = "Mushan"
 AUTHOR_EMAIL     = "wwd137669793@gmail.com"
 DESCRIPTION      = "Monotonic Align from VITS"
 LICENSE          = "MIT"
 KEYWORDS         = "None"
-URL              = "https://github.com/mushanshanshan"
+URL              = "https://github.com/mushanshanshan/monotonic_align"
 README           = ".github/README.md"
-VERSION          = "0.0.2"
+VERSION          = "0.0.3"
 CLASSIFIERS      = [
   "Environment :: Console",
   "License :: OSI Approved :: MIT License",
@@ -44,7 +44,7 @@ if __name__ == "__main__":
     keywords=KEYWORDS,
     url=URL,
     classifiers=CLASSIFIERS,
-    ext_modules = cythonize("monotonic_align/core.pyx"),
+    ext_modules = cythonize("./monotonic_align/core.pyx"),
     install_requires=INSTALL_REQUIRES,
     entry_points=ENTRY_POINTS,
     scripts=SCRIPTS,
