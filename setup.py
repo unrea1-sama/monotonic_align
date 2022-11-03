@@ -44,7 +44,7 @@ if __name__ == "__main__":
     keywords=KEYWORDS,
     url=URL,
     classifiers=CLASSIFIERS,
-    ext_modules = cythonize("core.pyx"),
+    ext_modules = cythonize("monotonic_align/core.pyx"),
     install_requires=INSTALL_REQUIRES,
     entry_points=ENTRY_POINTS,
     scripts=SCRIPTS,
