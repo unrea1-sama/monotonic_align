@@ -1,5 +1,5 @@
 import numpy as np
-from core import maximum_path_c
+from monotonic_align.core import maximum_path_c
 import torch
 
 
