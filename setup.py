@@ -1,15 +1,15 @@
 from setuptools import setup, find_packages
 from Cython.Build import cythonize
 
-NAME             = "vits_monotonic_align"
-AUTHOR           = "Mushan"
-AUTHOR_EMAIL     = "wwd137669793@gmail.com"
+NAME             = "monotonic_align"
+AUTHOR           = "unrea1"
+AUTHOR_EMAIL     = "unrea1sama@outlook.com"
 DESCRIPTION      = "Monotonic Align from VITS"
 LICENSE          = "MIT"
 KEYWORDS         = "None"
-URL              = "https://github.com/mushanshanshan/monotonic_align"
-README           = ".github/README.md"
-VERSION          = "0.0.3"
+URL              = "https://github.com/unrea1-sama/monotonic_align"
+README           = "README.md"
+VERSION          = "0.0.4"
 CLASSIFIERS      = [
   "Environment :: Console",
   "License :: OSI Approved :: MIT License",
